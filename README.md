@@ -1,2 +1,2 @@
-# code_snippets
+# Code Snippets
 Simple code snippets 
