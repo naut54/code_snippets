@@ -10,8 +10,8 @@ body {
 
 .one {
     top: 0;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 10%;
     /* background-color: aqua; */
 }
 
@@ -19,4 +19,29 @@ body {
     font-size: 30px;
     font-weight: 700;
     color: #000000;
+}
+
+.two {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    flex-direction: row;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 20px;
+    font-family: ui-sans-serif, system-ui;
+    font-weight: 400;
+    color: #555555;
 }

@@ -8,11 +8,22 @@
         <title>Contact</title>
     </head>
     <body>
+        <script src="/web_snippets/contactpage_1/assets/js/format.js"></script>
         <section class="one">
             <div id="title">Contacto</div>
+            <div id="sub">Completa este formulario para ponerte en contacto conmigo.</div>
         </section>
         <section class="two">
-
+            <form action="form">
+                <div class="name">
+                    <label for="name">Nombre</label><br>
+                    <input type="text" placeholder="Antonio">
+                </div>
+                <div class="phone">
+                    <label for="name">Número de teléfono</label><br>
+                    <input type="text" placeholder="XXX XXX XXX" oninput="formatPhoneNumber(this)">
+                </div>
+            </form>
         </section>
     </body>
 </html>
