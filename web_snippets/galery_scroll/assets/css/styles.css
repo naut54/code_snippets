@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+}
+
+.wrapper {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.wrapper::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.wrapper::-webkit-scrollbar:horizontal {
+    width: 10px;
+}
+
+.wrapper::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.wrapper, .item {
+    min-width: 25rem;
+    height: 15rem;
+    background-color: white;
+}
+
+.item {
+    display: flex;
+    width: 25rem;
+    height: 13rem;
+    flex-direction: column;
+    background-image: url(/web_snippets/galery_scroll/assets/img/monaexample.png);
+    background-size: cover;
+    margin: 0% 1% 0% 1%;
+    border-radius: 25px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.t1 {
+    color: #000000;
+    margin: 0% 0% 0% 1%;
+}
+
+.p1 {
+    color: #000000;
+    margin: 0% 0% 2% 2%;
+}
