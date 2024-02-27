@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+
+.loading_wave {
+    display: none;
+}

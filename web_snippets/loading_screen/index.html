@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AnimeHub</title>
+        <link rel="stylesheet" media="only screen and (min-width: 768px)" href="/web_snippets/loading_screen/assets/css/styles.css">
+        <link rel="stylesheet" media="only screen and (min-width: 768px)" aria-orientation="horizontal" href="/assets/css/main_styles.css">
+        <link rel="stylesheet" media="only screen and (max-width: 767px)" href="/assets/css/mobile_styles.css">
+        <link rel="shortcut icon" href="/assets/img/AnimeHub_r_s_l-modified.ico" type="image/x-icon">
+    </head>
+    <body>
+        <script src="/web_snippets/loading_screen/assets/js/main.js"></script>
+        <script src="/assets/js/timeout.js"></script>
+        <section class="navbar">
+            <div id="navi">
+                <div id="c1">
+                    <div id="img1"><a href="/index.html"><img src="/assets/img/perfil.png" alt="logo" width="35px" height="35px"></a></div>
+                    <div id="main">
+                        <button class="openbtn" onclick="openNav()" id="btn">☰</button>
+                    </div>
+                </div>
+                <div id="c2">
+                    <div id="t11">
+                        <div id="t1">Anime</div></a>
+                        <div id="t2">Hub</div>
+                    </div>
+                </div>
+                <div id="c3">
+                    <div id="img2"><a href="/assets/sites/library.html"><img src="/assets/img/books.svg" alt="Biblioteca"></a></div>
+                </div>
+                <div id="mySidebar" class="sidebar">
+                    <div id="subnav">
+                        <div id="img4"><a href="/index.html"><img src="/assets/img/perfil.png" alt="logo" width="35px" height="35px"></a></div>
+                    </div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="/assets/sites/cat/action.html">Acción</a>
+                    <a href="/assets/sites/error.html">Aventura</a>
+                    <a href="/assets/sites/error.html">Fantasia</a>
+                    <a href="/assets/sites/error.html">Drama</a>
+                    <a href="/assets/sites/error.html">Comedia</a>
+                    <a href="/assets/sites/error.html">Ciencia Ficción</a>
+                    <a href="/assets/sites/error.html">Musical</a>
+                    <a href="/assets/sites/error.html">Romance</a>
+                    <a href="/assets/sites/others.html">Otros</a>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="cards1">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                <img src="/assets/img/cards/jjk.avif" style="width:100%; margin: 1% 0% 1% 0%; border-radius: 25px;">
+                </div>
+                <div class="mySlides fade">
+                <img src="/assets/img/cards/chainsawman.avif" style="width:100%; margin: 1% 0% 1% 0%; border-radius: 25px;">
+                </div>
+                <div class="mySlides fade">
+                <img src="/assets/img/cards/fma.avif" style="width:100%; margin: 1% 0% 1% 0%; border-radius: 25px;">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <div class="txt2">
+                ⭐ Nuestra selección ⭐
+            </div>
+            <div class="sup">
+                <div class="item2" id="ix1">
+                    <h1 class="txt4">Attack on Tinan</h1>
+                    <p class="p1">Protagonizada por un grupo de residentes de una ciudad rodeada de murallas, las cuales sirven para proteger a la población de los ataques de gigantes caníbales, quienes de vez en cuando consiguen entrar en el lugar.</p>
+                </div>
+                <div class="item2" id="ix2">
+                    <h1 class="txt4">Dragon Ball Z</h1>
+                    <p class="p1">Un guerrero saiyajin llamado Goku, experto en artes marciales, el cual inicia sus viajes y aventuras en las que pone a prueba y mejora sus habilidades de pelea, enfrentando oponentes y protegiendo a la Tierra de otros seres que quieren conquistarla y exterminar a la humanidad.</p>
+                </div>
+                <div class="item2" id="ix3">
+                    <h1 class="txt4">Death Note</h1>
+                    <p class="p1">Cuando un estudiante japonés se adueña de un cuaderno místico, descubre que tiene la facultad de matar a cualquiera cuyo nombre escriba en el cuaderno.</p>
+                </div>
+                <div class="item2" id="ix4">
+                    <h1 class="txt4">The Quintessential Quintuplets</h1>
+                    <p class="p1">Fuutarou Uesugi, un estudiante pobre y antisocial, se convierte en tutor de las cinco hermanas Quintillizas Nakano, una familia rica recién llegada a la ciudad. A pesar de las difíciles personalidades y bajas calificaciones de las chicas, Fuutarou se esfuerza por cumplir con su trabajo.</p>
+                </div>
+                <div class="item2" id="ix5">
+                    <h1 class="txt4">Tokyo Ghoul</h1>
+                    <p class="p1">El protagonista es Kaneki Ken, un joven corriente que sobrevive fortuitamente al ataque de una ghoul. Sin embargo, para salir adelante le trasplantaron los órganos de la ghoul de la que fue víctima. Por ello, su vida cambia radicalmente al convertirse en un híbrido entre humano y ghoul.</p>
+                </div>
+                <div class="item2" id="ix6">
+                    <h1 class="txt4">Naruto</h1>
+                    <p class="p1">Naruto es una serie de manga escrita e ilustrada por Masashi Kishimoto. La obra narra la historia de un ninja adolescente llamado Naruto Uzumaki, quien aspira a convertirse en Hokage, líder de su aldea, con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.</p>
+                </div>
+                <div class="item2" id="ix7">
+                    <h1 class="txt4">The Dreaming Boy Is a Realist</h1>
+                    <p class="p1">Wataru Sajõ, enamorado de Aika Natsukawa, deja de intentar acercarse a ella tras darse cuenta de su incomodidad, desconcertándola.</p>
+                </div>
+                <div class="item2" id="ix8">
+                    <h1 class="txt4">One Punch Man</h1>
+                    <p class="p1">Saitama es un joven adulto que enfrenta una crisis existencial ante su increíble fuerza debido a que no siente emociones durante sus batallas. Tras ser héroe por diversión, se inscribe en la Asociación de Héroes para convertirse en héroe profesional al darse cuenta de que nadie lo reconoce como tal.</p>
+                </div>
+            </div>
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="col1">
+                <h1 class="t1">Título</h1>
+                <div class="img2"></div>
+              </div>
+              <div class="col2">
+                <h1 class="t1">Sinopsis</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis minima dolore debitis repellat veritatis! Obcaecati, modi. Enim, soluta dolor ullam aliquam iste sed provident quis explicabo beatae quaerat, aut aperiam.</p>
+                <h3>Personajes</h3>
+                <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum facilis,</p>
+                <button>‣</button>
+              </div>
+            </div>
+        </div>
+        <div class="blank1">
+            <footer id="f1">
+                <p>Aviso Legal: Los derechos de autor sobre el contenido de anime pertenecen a sus respectivos autores y titulares de derechos. Octal posee una licencia para la distribución y presentación de dicho contenido en esta plataforma. Queda prohibida la reproducción no autorizada de cualquier material sin el consentimiento expreso de los titulares de derechos.</p>
+                <p>Advertencia: Algunas funciones de esta plataforma pueden requerir una suscripción. Todos los datos proporcionados están protegidos de acuerdo con la ley vigente de protección de datos. La suscripción y el uso de la plataforma están sujetos a los términos y condiciones establecidos por AnimeHub y TheHub.</p>
+                <p>Descargo de Responsabilidad: Esta plataforma se proporciona "tal cual" sin garantías de ningún tipo, ya sean expresas o implícitas. AnimeHub y TheHub no asumen responsabilidad alguna por la exactitud, integridad o actualidad del contenido. El uso de esta plataforma está bajo la responsabilidad del usuario.</p>
+            </footer>
+            <footer id="f2">
+                <p>&copy; 2024 AnimeHub. Todos los derechos reservados. | Desarrollado por TheHub | Marca registrada Octal</p>
+            </footer>
+        </div>
+    </body>
+</html>

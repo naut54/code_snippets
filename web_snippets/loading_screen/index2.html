@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la Página</title>
+    <!-- Enlace a la primera hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="/web_snippets/loading_screen/assets/css/st1.css" id="hojaEstilos1">
+</head>
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Espera 5 segundos antes de cargar la segunda hoja de estilos
+                setTimeout(function() {
+                    cargarSegundaHojaEstilos();
+                }, 5000);
+            });
+
+            function cargarSegundaHojaEstilos() {
+                // Crea un nuevo enlace para la segunda hoja de estilos
+                var nuevaHojaEstilos = document.createElement("link");
+                nuevaHojaEstilos.rel = "stylesheet";
+                nuevaHojaEstilos.type = "text/css";
+                nuevaHojaEstilos.href = "/web_snippets/loading_screen/assets/css/st2.css";
+
+                // Agrega la nueva hoja de estilos al head
+                document.head.appendChild(nuevaHojaEstilos);
+            }
+        </script>
+        <section class="navbar">
+            <div id="navi">
+                <div id="c1">
+                    <div id="img1"><a href="/index.html"><img src="/assets/img/perfil.png" alt="logo" width="35px" height="35px"></a></div>
+                    <div id="main">
+                        <button class="openbtn" onclick="openNav()" id="btn">☰</button>
+                    </div>
+                </div>
+                <div id="c2">
+                    <div id="t11">
+                        <div id="t1">Anime</div></a>
+                        <div id="t2">Hub</div>
+                    </div>
+                </div>
+                <div id="c3">
+                    <div id="img2"><a href="/assets/sites/library.html"><img src="/assets/img/books.svg" alt="Biblioteca"></a></div>
+                </div>
+                <div id="mySidebar" class="sidebar">
+                    <div id="subnav">
+                        <div id="img4"><a href="/index.html"><img src="/assets/img/perfil.png" alt="logo" width="35px" height="35px"></a></div>
+                    </div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="/assets/sites/cat/action.html">Acción</a>
+                    <a href="/assets/sites/error.html">Aventura</a>
+                    <a href="/assets/sites/error.html">Fantasia</a>
+                    <a href="/assets/sites/error.html">Drama</a>
+                    <a href="/assets/sites/error.html">Comedia</a>
+                    <a href="/assets/sites/error.html">Ciencia Ficción</a>
+                    <a href="/assets/sites/error.html">Musical</a>
+                    <a href="/assets/sites/error.html">Romance</a>
+                    <a href="/assets/sites/others.html">Otros</a>
+                </div>
+            </div>
+        </section>
+        <div class="loading_wave">
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+            <div class="loading-bar"></div>
+        </div>
+    </body>
+</html>
